@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <>
             <div className='text-white mx[1.25rem] mt-[8rem]'>
-                <div className='flex flex-col-reverse m-auto text-center w-[80%] lg:w-[90%] lg:flex-row justify-between gap-8 text'>
+                <div className='flex flex-col-reverse m-auto text-center w-[80%] lg:flex-row justify-between gap-8 text w-[90%]'>
 
                     <div className='m-auto basis-3/5 lg:m-0'>
                         <p className='font-DMsans font-extrabold text-[0.9rem] tracking-widest text-[#4f45e0] mt-2'>VITE AGENCY</p>
