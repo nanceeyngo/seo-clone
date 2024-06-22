@@ -14,7 +14,7 @@ export const Navbar = () => {
     return (
         <div className='text-[white] flex justify-between items-center h-20 bg-red-700'>
         
-            <h1 className='text-[25px] text-[gold] font-bold m-3 cursor-pointe'>MY VITE PAGE</h1>
+            <h1 className='text-[25px] text-[gold] font-bold m-3 cursor-pointer'>MY VITE PAGE</h1>
         
                 <ul className='hidden md:flex justify-between gap-5 uppercase font-bold'>
                     <li><NavLink to="/home">Home</NavLink></li>
@@ -28,7 +28,7 @@ export const Navbar = () => {
             <button className='bg-[gold] px-4 rounded-lg py-2 text-black font-bold'>Register</button>
         </div>
         
-        <div className='md:hidden right-6 fixed' onClick={handleNav}>
+        <div className='md:hidden mr-8' onClick={handleNav}>
             {!showNav? <IoClose size={20} className='cursor-pointer' /> : <IoMenu size={30} className='cursor-pointer' /> }
        
         </div>
